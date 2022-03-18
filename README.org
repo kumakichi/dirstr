@@ -1,0 +1,16 @@
+* Installation
+
+  #+begin_src sh
+    go install github.com/kumakichi/dirstr/cmd/dir2str@latest
+    go install github.com/kumakichi/dirstr/cmd/str2dir@latest
+  #+end_src
+
+* Usage
+  
+** dir2str
+  archive files(normally, code source files) in current directory, and encode to base64 string
+
+  so you can put some little POC projects into notes
+
+** str2dir  
+  extract files from the given string into current directory
